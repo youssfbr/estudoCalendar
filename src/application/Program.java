@@ -15,9 +15,13 @@ public class Program {
 		
 		System.out.println(d);
 		System.out.println(sdf.format(d));
+		System.out.println("-------------------------------------------------");
 		
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(d);
 		cal.add(Calendar.HOUR_OF_DAY, 4);
+		d = cal.getTime();
+		System.out.println(d);
+		System.out.println(sdf.format(d));
 	}
 }

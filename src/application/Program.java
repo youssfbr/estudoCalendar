@@ -17,6 +17,6 @@ public class Program {
 		System.out.println(sdf.format(d));
 		
 		Calendar cal = Calendar.getInstance();
+		cal.setTime(d);
 	}
-
 }

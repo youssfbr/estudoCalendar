@@ -2,6 +2,7 @@ package application;
 
 import java.text.SimpleDateFormat;
 import java.time.Instant;
+import java.util.Calendar;
 import java.util.Date;
 
 public class Program {
@@ -14,6 +15,8 @@ public class Program {
 		
 		System.out.println(d);
 		System.out.println(sdf.format(d));
+		
+		Calendar cal = Calendar.getInstance();
 	}
 
 }

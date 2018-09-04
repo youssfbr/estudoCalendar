@@ -19,9 +19,13 @@ public class Program {
 		
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(d);
-		cal.add(Calendar.HOUR_OF_DAY, 4);
+		/*cal.add(Calendar.HOUR_OF_DAY, 4);
 		d = cal.getTime();
 		System.out.println(d);
-		System.out.println(sdf.format(d));
+		System.out.println(sdf.format(d));*/
+		
+		//Obtendo uma unidade de tempo
+		int minutes = cal.get(Calendar.MINUTE);
+		System.out.println("Minutes: " + minutes);
 	}
 }
